@@ -3,12 +3,12 @@
 
 import React from 'react'
 
-function Page() {
+const Home = () => {
   return (
     <div>
-      POST ID HERE
+      This is Home;
     </div>
   )
 }
 
-export default Page
+export default Home
