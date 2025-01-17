@@ -1,7 +1,7 @@
 
 
 
-import '@styles/global.css';
+import '@styles/globals.css';
 
 
 export const metadata = {
@@ -9,7 +9,7 @@ export const metadata = {
     description: ' Search ai prompts'
 }
 
-const RootLayout = () => {
+const RootLayout = ({children}) => {
   return (
     <html lang='en'>
       <body>
